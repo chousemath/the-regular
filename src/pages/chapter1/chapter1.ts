@@ -14,8 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'chapter1.html',
 })
 export class Chapter1Page {
-
+  profileCharacter1: string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.profileCharacter1 = '../../assets/img/profile-1.png';
   }
 
   ionViewDidLoad() {
