@@ -1,7 +1,6 @@
 page-home {
   .book-title {
     font-size: 65px;
-    color: #ffffff;
   }
 
   .button-proceed {
@@ -14,5 +13,11 @@ page-home {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
