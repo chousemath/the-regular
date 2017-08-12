@@ -25209,7 +25209,6 @@ ion-navbar.toolbar {
 
 page-home .book-title {
   font-size: 65px;
-  color: #ffffff;
 }
 
 page-home .button-proceed {
@@ -25219,4 +25218,19 @@ page-home .button-proceed {
 page-home .cafe-background {
   background: url(../../assets/img/background-1.jpg) no-repeat center center fixed;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
 }
