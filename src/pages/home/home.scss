@@ -1,3 +1,18 @@
 page-home {
+  .book-title {
+    font-size: 65px;
+    color: #ffffff;
+  }
 
+  .button-proceed {
+    font-size: 23px;
+  }
+
+  .cafe-background {
+    background: url(../../assets/img/background-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
